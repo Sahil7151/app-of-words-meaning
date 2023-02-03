@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Dancing+Script:wght@700&family=Kavoon&family=Paprika&family=Rye&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Rye", cursive;
+}
+.header {
+  min-height: 60vh;
+  background: url(1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  width: 90%;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.nav-items {
+  width: 20%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+.headline {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.khan {
+  display: inline-block;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.btn-headline {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+.section {
+  margin-top: 5rem;
+  text-align: center;
+}
+.form {
+  min-height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.form input {
+  min-height: 100%;
+}
+.form input[type="text"] {
+  width: 78%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.form input[type="submit"] {
+  width: 20%;
+  background: #59524b;
+  color: white;
+  font-weight: 300;
+}
+#colo {
+  color: white;
+  text-decoration: underline;
+}
+.meaning {
+  background: rgb(181, 182, 180);
+  border-radius: 40%;
+}
